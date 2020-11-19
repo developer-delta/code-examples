@@ -12,3 +12,7 @@ An example of valid HTML for lesson 1.
 
 ---
 
+## [CSS Joke Extravaganza](chicken-seance)
+A take on styling an accessible online joke website called Lolzercakes.
+
+---
