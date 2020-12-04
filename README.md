@@ -17,5 +17,16 @@ An example of valid HTML for lesson 1.
 
 A take on styling an accessible online joke website called Lolzercakes.
 
+---
+
+## [Walkthrough for Rebel Traitor Hunt on the CLI](rebel-traitor-hunt.md)
+
+Step-by-step guide to get to the final solution.
+
+---
+
+## Using Git and GitHub on your first project
+
+[video of walkthrough]
 
 ---
