@@ -25,7 +25,7 @@ Step-by-step guide to get to the final solution.
 
 ---
 
-## Using Git and GitHub on your first project
+## [Using Git and GitHub on your first project](https://github.com/developer-delta/dev-delta-jokes)
 
 [video of walkthrough]
 
