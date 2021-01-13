@@ -120,8 +120,6 @@ console.log(myCoffee);
 
 
 
-
-
 let megaCoffeeMachine = (coffeeType, cream) => {
 
     if(!coffeeType && !cream) {
