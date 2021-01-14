@@ -36,4 +36,4 @@ Step-by-step guide to get to the final solution.
 
 The homework file to recap on JS and practice using JavaScript conditionals
 
-[JS conditionals walkthrough](conditionals.md)
+[JS conditionals solution](conditionals-solution.md)
