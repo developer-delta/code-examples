@@ -37,3 +37,16 @@ Step-by-step guide to get to the final solution.
 The homework file to recap on JS and practice using JavaScript conditionals
 
 [JS conditionals solution](conditionals-solution.md)
+
+---
+
+## [CSS flexbox intro](flexbox-intro)
+
+File for the working session to go over using CSS flexbox to position items in a document
+
+---
+
+## [Flexbox finches homework](flexbox-intermediate)
+
+Assessment that covers a range of CSS skills and flexbox alignment to create an informational page on Finches.
+
