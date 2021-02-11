@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, 'Arial Narrow Bold', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 5vh;
+  padding-bottom: 175px;
+}
+
+.quote-poster {
+  position: relative;
+  min-height: 275px;
+  max-height: 94vh;
+  width: 100%;
+  overflow: hidden;
+  background-image: url('https://metro.co.uk/wp-content/uploads/2017/04/guardians-of-the-galaxy.jpg?quality=90&strip=all');
+  background-size: cover;
+  background-position: top;
+}
+
+.quote-poster .quote-text {
+  overflow: scroll;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  line-height: 5.9vw;
+  letter-spacing: -.2vw;
+  color: black;
+  background: white;
+  mix-blend-mode: screen;
+  font-weight: 800;
+  width: 50%;
+  height: 100%;
+  min-height: 275px;
+  text-align: right;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+
+.quote-poster .quote-text p {
+  word-break: break-word;
+  font-size: 7vw;
+  padding-right: 10px;
+  height: 100%;
+}
+
+.attribution {
+  font-size: 2vw;
+  font-weight: 700;
+  right: 2vw;
+  bottom: 1vw;
+  color: white;
+  position: absolute;
+  width: 100%;
+  text-align: right;
+}
+
+main input {
+  position: absolute;
+  bottom: 140px;
+  width: 100%;
+  max-width: 350px;
+  border: none;
+  background: none;
+  border-bottom: 1px dashed;
+  height: 41px;
+  font-size: 41px;
+}
+
+button {
+  position: fixed;
+  bottom: 20px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button .blur-bg {
+  background: url('https://metro.co.uk/wp-content/uploads/2017/04/guardians-of-the-galaxy.jpg?quality=90&strip=all');
+  background-size: cover;
+  filter: blur(15px);
+}
+
+button .icon {
+  position: absolute;
+  top: 0;
+  background-image: url('data:image/png;base64,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');
+  background-size: contain;
+  mix-blend-mode: screen;
+}
+
+button .blur-bg, button .icon {
+  width: 100%;
+  height: 100%;
+}
